@@ -6,6 +6,6 @@ yt=Youtube(link)
 ys= yt.streams.get_highest_resolution()
 
 
-print("indiriliyor....")
+print("Downloading....")
 ys.download()
-print("indirildi..")
+print("Downloaded..")
